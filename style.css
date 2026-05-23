@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 15pt;
+  background-color: lightblue;
+}
+
+a {
+  text-decoration: none;
+  color: royalblue;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a365d;
+  color: #e2e8f0;
+  margin-bottom: 20px;
+  position: sticky;
+  height: 50px;
+
+}
+
+main div{
+  margin: 30px;
+}
+li{
+  list-style-type: none;
+}
