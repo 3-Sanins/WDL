@@ -1,0 +1,56 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body {
+    font-size: 15pt;
+    background-color: lightblue;
+}
+nav{
+  
+}
+nav div{
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a365d;
+  color: #e2e8f0;
+  margin-bottom: 20px;
+  position: sticky;
+  height : 50px;
+  
+}
+
+main div {
+  width : 220px;
+  margin: auto;
+}
+main div div{
+  display : grid;
+  margin :auto;
+  gap: 2px;
+  grid-template-columns: repeat(4,1fr);
+  
+}
+
+button{
+  border-radius: 5px;
+  background-color: cornsilk;
+  border : 0px;
+  height : 35px;
+}
+button:active{
+  background-color: silver;
+}
+input{
+  height: 30px;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  
+}
+
+.num{
+  background-color: red;
+}
